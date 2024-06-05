@@ -8,7 +8,7 @@ function App() {
   const [units, setUnits] = useState('metric');
 
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&appid=895284fb2d2c50a520ea537456963d9c`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=${units}&appid=Y0UR_ID`
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
